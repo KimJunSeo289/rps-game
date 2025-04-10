@@ -1,0 +1,12 @@
+
+:root{
+    text-align: center;
+}
+
+.middle{
+    display: flex;
+    gap: 0.5rem;
+    margin: 2rem;
+    justify-content: center;
+}
+

@@ -1,0 +1,38 @@
+.CardBox{
+    border: 5px solid rgb(81, 81, 247);
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.CardBox img{
+    width: 100px;
+    height: 100px;
+}
+
+.Computer {
+    border: 5px solid rgb(235, 138, 29);
+  }
+
+.이겼다.user {
+    background-color: #bcdffc; 
+  }
+  .이겼다.Computer {
+    background-color: #fdaeae; 
+  }
+  .졌다.user {
+    background-color: #fdaeae; 
+  }
+  .졌다.Computer {
+    background-color: #bcdffc;
+  }
+  
+  /* 무승부는 연회색 */
+  .무승부.user,
+  .무승부.Computer {
+    background-color: #d5d2d2;
+  }
